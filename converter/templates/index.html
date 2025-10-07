@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube to MP3</title>
+</head>
+<body>
+  <h1>YouTube to MP3 Converter</h1>
+  <form method="post">
+    {% csrf_token %}
+    <input type="text" name="url" placeholder="Paste YouTube URL" required>
+    <button type="submit">Convert</button>
+  </form>
+</body>
+</html>
