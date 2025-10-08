@@ -1,1 +1,1 @@
-web: gunicorn yt2mp3.yt2mp3.wsgi
+web: gunicorn yt2mp3.wsgi:application
